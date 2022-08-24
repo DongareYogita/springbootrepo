@@ -61,5 +61,10 @@ public class CustomerController {
     public String sayHello(){
         return "Welcome To CSI";
     }
+    @GetMapping("/service")
+    public String sayWelcome(){
+        return "FUll Stack Java Developer";
+    }
+
 
 }
